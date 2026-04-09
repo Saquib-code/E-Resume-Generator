@@ -1,0 +1,16 @@
+{
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ],
+  "environments": {
+    "test": {
+      "buildpacks": [
+        {
+          "url": "heroku/java"
+        }
+      ]
+    }
+  }
+}

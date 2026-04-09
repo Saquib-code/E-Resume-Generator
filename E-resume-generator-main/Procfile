@@ -1,0 +1,1 @@
+web: cd resume-ai-backend && ./mvnw spring-boot:run -Dserver.port=$PORT
